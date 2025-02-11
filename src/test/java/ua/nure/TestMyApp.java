@@ -22,4 +22,11 @@ public class TestMyApp {
         String result = MyApp.generateGreeting("");
         Assertions.assertEquals("Hello ", result);
     }
+
+    @Test
+    public void testSum() {
+        int result = MyApp.sum(5,3);
+        Assertions.assertEquals(8, result);
+    }
+
 }
