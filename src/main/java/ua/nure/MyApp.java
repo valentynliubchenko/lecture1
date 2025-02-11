@@ -6,7 +6,7 @@ public class MyApp {
             System.out.println(generateGreeting(args[0]));
         } else {
 
-            System.out.println("Hello world");
+            System.out.println("Help my");
 
         }
     }
