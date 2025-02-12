@@ -8,5 +8,6 @@ public class TestCalculator {
     public void testSum(){
         Calculator calc = new Calculator();
         Assertions.assertEquals(10, calc.sum(4,6));
+        Assertions.assertEquals(12, calc.sum(6,6));
     }
 }
